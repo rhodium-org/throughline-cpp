@@ -1,0 +1,12 @@
+uid: SR-0053
+type: system_requirement
+status: approved
+title: Comment each class's purpose and invariants
+text: >-
+  Precede each non-obvious class with a comment describing its purpose, how it should be
+  used, and any invariants or special behaviour.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Comments — Class Comments"

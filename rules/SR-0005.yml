@@ -1,0 +1,12 @@
+uid: SR-0005
+type: system_requirement
+status: approved
+title: Only define short functions inline in a header
+text: >-
+  Define a function inline in a header only when it is short, roughly ten lines or fewer;
+  move longer bodies to a .cc file unless performance requires otherwise.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Header Files — Inline Functions"

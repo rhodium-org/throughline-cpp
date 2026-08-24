@@ -1,0 +1,11 @@
+uid: SR-0058
+type: system_requirement
+status: approved
+title: Keep lines within eighty characters
+text: >-
+  Keep each line to eighty characters or fewer, breaking a long line at a logical point.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Formatting — Line Length"

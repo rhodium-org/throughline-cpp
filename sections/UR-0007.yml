@@ -1,0 +1,12 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: Naming
+text: >-
+  Rules governing the casing and choice of file, type, variable, constant, function,
+  namespace, enumerator and macro names.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google C++ Style Guide: Naming"

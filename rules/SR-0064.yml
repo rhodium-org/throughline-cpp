@@ -1,0 +1,12 @@
+uid: SR-0064
+type: system_requirement
+status: approved
+title: Lay out a class by visibility with two-space indentation
+text: >-
+  Lay out a class with the public section first, then protected, then private, each label
+  indented one space and the contents indented two, and omit empty sections.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Formatting — Class Format"

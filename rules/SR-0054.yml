@@ -1,0 +1,13 @@
+uid: SR-0054
+type: system_requirement
+status: approved
+title: Comment what a function does, its parameters and side effects
+text: >-
+  Precede a non-trivial function declaration with a comment describing what it does, its
+  parameters and return value, its side effects, and any pre- and post-conditions, rather
+  than how it works.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Comments — Function Comments"

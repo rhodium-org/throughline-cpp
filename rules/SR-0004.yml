@@ -1,0 +1,12 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: Avoid forward declarations; include the header
+text: >-
+  Avoid forward declarations and include the header you need instead; never
+  forward-declare entities in std or in a namespace you do not own.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Header Files — Forward Declarations"

@@ -1,0 +1,12 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: Classes
+text: >-
+  Rules governing constructors, implicit conversions, copy and move semantics, structs
+  versus classes, inheritance, operator overloading, access control and declaration order.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google C++ Style Guide: Classes"

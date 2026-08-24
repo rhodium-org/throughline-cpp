@@ -1,0 +1,12 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: Other C++ Features
+text: >-
+  Rules governing rvalue references, exceptions, RTTI, casting, streams, const, constexpr,
+  integer types, macros, nullptr, auto and lambdas.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google C++ Style Guide: Other C++ Features"

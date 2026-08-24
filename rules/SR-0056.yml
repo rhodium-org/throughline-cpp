@@ -1,0 +1,13 @@
+uid: SR-0056
+type: system_requirement
+status: approved
+title: Explain why in implementation comments, not what
+text: >-
+  Use implementation comments to explain why non-obvious or tricky code does what it does,
+  and to flag surprising or dangerous constructs, rather than restating what
+  self-explanatory code already says.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Comments — Implementation Comments"

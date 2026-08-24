@@ -1,0 +1,13 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: Order and group includes consistently
+text: >-
+  Order includes as the related header, then C system headers, then C++ standard library,
+  then other libraries, then project headers; separate groups with a blank line, sort
+  alphabetically within a group, and use angle brackets only for system headers.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Header Files — Names and Order of Includes"

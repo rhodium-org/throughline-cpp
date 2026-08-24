@@ -1,0 +1,12 @@
+uid: SR-0065
+type: system_requirement
+status: approved
+title: Do not indent the contents of a namespace
+text: >-
+  Do not indent the contents of a namespace, and close it with a comment naming the
+  namespace.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Formatting — Namespace Formatting"

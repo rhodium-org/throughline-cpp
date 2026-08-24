@@ -1,0 +1,12 @@
+uid: SR-0063
+type: system_requirement
+status: approved
+title: Place # at the start of a preprocessor directive line
+text: >-
+  Begin a preprocessor directive with # at the start of the line with no indentation, and
+  format a header guard as PROJECT_PATH_FILE_H_.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Formatting — Preprocessor Directives"

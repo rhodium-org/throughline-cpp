@@ -1,0 +1,13 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: Declare or delete copy and move operations deliberately
+text: >-
+  In the public section, explicitly declare or delete the copy and move operations to
+  state whether a type is copyable, move-only or neither, keeping the corresponding
+  constructor and assignment consistent.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Classes — Copyable and Movable Types"

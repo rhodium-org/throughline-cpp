@@ -1,0 +1,12 @@
+uid: UR-0001
+type: user_requirement
+status: approved
+title: Header Files
+text: >-
+  Rules governing self-contained headers, include guards, what to include, forward
+  declarations, inline definitions and the order of includes.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google C++ Style Guide: Header Files"

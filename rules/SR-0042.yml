@@ -1,0 +1,12 @@
+uid: SR-0042
+type: system_requirement
+status: approved
+title: Use lambda expressions judiciously with explicit captures
+text: >-
+  Use a lambda where it is short and local, capture variables explicitly rather than with
+  a default capture, and take care with captures that may outlive the lambda.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Other C++ Features — Lambda Expressions"

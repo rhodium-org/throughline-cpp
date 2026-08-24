@@ -1,0 +1,12 @@
+uid: SR-0057
+type: system_requirement
+status: approved
+title: Mark unfinished work with a TODO and a reference
+text: >-
+  Mark temporary or unfinished code with a TODO comment in a consistent form that carries
+  a bug reference or contact and context on what remains.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Comments — TODO Comments"

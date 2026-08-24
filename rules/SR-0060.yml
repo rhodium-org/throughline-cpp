@@ -1,0 +1,12 @@
+uid: SR-0060
+type: system_requirement
+status: approved
+title: Avoid non-ASCII characters in source
+text: >-
+  Avoid non-ASCII characters in source, and where one is needed use UTF-8 encoding and
+  escape it appropriately.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Formatting — Non-ASCII Characters"

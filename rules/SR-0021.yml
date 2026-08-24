@@ -1,0 +1,13 @@
+uid: SR-0021
+type: system_requirement
+status: approved
+title: Order class declarations by kind and visibility
+text: >-
+  Place the public section first, then protected, then private, omit empty sections, and
+  within each group order types, constants, factories, constructors, the destructor, other
+  methods and then data members.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Classes — Declaration Order"

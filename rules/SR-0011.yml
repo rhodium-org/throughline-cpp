@@ -1,0 +1,13 @@
+uid: SR-0011
+type: system_requirement
+status: approved
+title: Forbid non-trivially-destructible static and global objects
+text: >-
+  Forbid static and global objects that are not trivially destructible; prefer constexpr
+  or constinit constant initialisation and function-local statics over dynamically
+  initialised namespace-scope objects.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Scoping — Static and Global Variables"

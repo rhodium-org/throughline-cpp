@@ -1,0 +1,12 @@
+uid: SR-0061
+type: system_requirement
+status: approved
+title: Attach the opening brace to conditionals, loops and switches
+text: >-
+  Place the opening brace on the same line as an if, for, while or switch, brace every
+  body, put a space after the keyword, and indent switch case labels one level.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Formatting — Conditionals, Loops and Switches"

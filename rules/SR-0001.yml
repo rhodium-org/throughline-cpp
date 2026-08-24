@@ -1,0 +1,13 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: Make every header self-contained
+text: >-
+  Make every header file self-contained so it compiles on its own, ends in .h, and
+  includes all headers its inline functions and templates need; use .inc files for
+  non-self-contained content only sparingly.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Header Files — Self-contained Headers"

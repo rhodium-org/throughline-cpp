@@ -1,0 +1,12 @@
+uid: SR-0046
+type: system_requirement
+status: approved
+title: Name variables in snake_case with a trailing underscore on members
+text: >-
+  Name a variable in snake_case, and give a class data member a trailing underscore to
+  distinguish it from a local.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Naming — Variable Names"

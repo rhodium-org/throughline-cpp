@@ -1,0 +1,12 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: Give .cc-only code internal linkage
+text: >-
+  Give definitions needed only within a single .cc file internal linkage with an unnamed
+  namespace or static; do not use these constructs in a header.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Scoping — Internal Linkage"

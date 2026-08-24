@@ -1,0 +1,12 @@
+uid: SR-0043
+type: system_requirement
+status: approved
+title: Choose descriptive names over abbreviations
+text: >-
+  Choose names that describe the purpose of the entity and are clear to a new reader,
+  favouring readability over brevity and avoiding abbreviations that are not widely known.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Naming — General Naming Rules"

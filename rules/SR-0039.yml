@@ -1,0 +1,13 @@
+uid: SR-0039
+type: system_requirement
+status: approved
+title: Avoid the preprocessor; prefer inline, const and constexpr
+text: >-
+  Avoid macros wherever possible, preferring inline functions, enums and const or
+  constexpr variables; if a macro is unavoidable, give it a unique project prefix and
+  #undef it promptly.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Other C++ Features — Preprocessor Macros"

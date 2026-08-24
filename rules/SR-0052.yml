@@ -1,0 +1,12 @@
+uid: SR-0052
+type: system_requirement
+status: approved
+title: Begin each file with a copyright and description comment
+text: >-
+  Begin each file with a copyright notice and a short comment describing the file's
+  contents and any non-obvious requirements.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Comments — File Comments"

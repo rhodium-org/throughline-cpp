@@ -1,0 +1,13 @@
+uid: SR-0037
+type: system_requirement
+status: approved
+title: Use constexpr and constinit for compile-time values
+text: >-
+  Use constexpr to define true constants and enable constant expressions, and constinit to
+  force constant initialisation, rather than relying on magic numbers or dynamic
+  initialisation.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Other C++ Features — Use of constexpr"

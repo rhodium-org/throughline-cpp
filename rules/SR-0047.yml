@@ -1,0 +1,12 @@
+uid: SR-0047
+type: system_requirement
+status: approved
+title: Name constants and enumerators with a leading k
+text: >-
+  Name a constant, and each enumerator, with a leading k followed by UpperCamelCase, such
+  as kDaysInWeek.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Naming — Constant Names"

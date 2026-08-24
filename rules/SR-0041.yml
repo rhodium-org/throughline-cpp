@@ -1,0 +1,12 @@
+uid: SR-0041
+type: system_requirement
+status: approved
+title: Use auto only where it aids readability
+text: >-
+  Use type deduction such as auto only where it makes code clearer to a reader or is
+  required, not merely to save typing, and never where it hides a type the reader needs.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Other C++ Features — Type Deduction"

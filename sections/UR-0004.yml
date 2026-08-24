@@ -1,0 +1,12 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: Functions
+text: >-
+  Rules governing inputs and outputs, function length, overloading, default arguments and
+  trailing return types.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google C++ Style Guide: Functions"

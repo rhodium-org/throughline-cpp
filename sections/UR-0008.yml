@@ -1,0 +1,12 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: Comments
+text: >-
+  Rules governing comment style, file, class, function and variable comments,
+  implementation comments and TODOs.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google C++ Style Guide: Comments"

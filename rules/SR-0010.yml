@@ -1,0 +1,12 @@
+uid: SR-0010
+type: system_requirement
+status: approved
+title: Declare each local variable in the narrowest scope
+text: >-
+  Declare a local variable in the narrowest scope possible, as close as possible to its
+  first use, and initialise it in the declaration.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Scoping — Local Variables"

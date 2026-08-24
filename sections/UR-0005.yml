@@ -1,0 +1,11 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: Ownership and Smart Pointers
+text: >-
+  Rules governing dynamic allocation, single ownership and the use of smart pointers.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google C++ Style Guide: Ownership"

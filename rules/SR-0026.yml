@@ -1,0 +1,13 @@
+uid: SR-0026
+type: system_requirement
+status: approved
+title: Use a trailing return type only when it helps
+text: >-
+  Use trailing return type syntax only where it is required, as in a lambda, or clearly
+  more readable, as in a template whose return type depends on its arguments; otherwise
+  keep the leading return type.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Functions — Trailing Return Type Syntax"

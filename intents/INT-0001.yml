@@ -1,0 +1,13 @@
+uid: INT-0001
+type: intent
+status: approved
+title: C++ is written in one consistent, safe, maintainable style
+text: >-
+  The Google C++ Style Guide exists so that C++ across a large codebase reads as though
+  written by one author: consistent header structure, scoping, class design, naming,
+  commenting and formatting, biased towards the safe and predictable subset of a large and
+  dangerous language, so that any engineer can read and change code they did not write and
+  avoid the language's many footguns.
+normative: false
+attrs:
+  source_ref: "Google C++ Style Guide"

@@ -1,0 +1,12 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: Write short, focused functions
+text: >-
+  Write short functions, aiming for roughly forty lines or fewer, and break up a long
+  function where doing so does not harm its structure.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Functions — Write Short Functions"

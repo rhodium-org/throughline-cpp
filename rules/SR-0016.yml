@@ -1,0 +1,12 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: Use struct only for passive data carriers
+text: >-
+  Use struct only for a passive object carrying data with public fields and no invariants;
+  use class whenever the type has an invariant or associated functionality.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Classes — Structs versus Classes"

@@ -1,0 +1,13 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: Restrict default arguments to non-virtual functions
+text: >-
+  Use default arguments only on a non-virtual function where the default is always the
+  same value; never on a virtual function or a function pointer, and prefer overloading
+  where it reads better.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Functions — Default Arguments"

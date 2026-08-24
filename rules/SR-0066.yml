@@ -1,0 +1,12 @@
+uid: SR-0066
+type: system_requirement
+status: approved
+title: Use single spaces around binary operators and after keywords
+text: >-
+  Use a single space around a binary operator and after a keyword such as if, put no space
+  before a call's opening parenthesis, and add no trailing whitespace.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Formatting — Horizontal Whitespace"

@@ -1,0 +1,13 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: Constant-initialise every thread_local at namespace or class scope
+text: >-
+  Annotate a namespace- or class-scope thread_local with constinit and initialise it with
+  a compile-time constant; allow dynamic initialisation only for a function-local
+  thread_local.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Scoping — thread_local Variables"

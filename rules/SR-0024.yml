@@ -1,0 +1,13 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: Overload only when the call is unambiguous to a reader
+text: >-
+  Use overloading only when a reader can tell which overload is called without knowing C++
+  matching rules and the variants are semantically equivalent; put a single umbrella
+  comment before the first declaration.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Functions — Function Overloading"

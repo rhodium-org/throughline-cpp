@@ -1,0 +1,12 @@
+uid: UR-0009
+type: user_requirement
+status: approved
+title: Formatting
+text: >-
+  Rules governing line length, indentation, the layout of declarations, calls,
+  conditionals, loops, pointers, classes and whitespace.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google C++ Style Guide: Formatting"

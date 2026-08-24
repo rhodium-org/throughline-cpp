@@ -1,0 +1,12 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: Keep all data members private
+text: >-
+  Make every data member private unless it is a constant, so invariants are enforced
+  through the class's public and protected interface.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Classes — Access Control"

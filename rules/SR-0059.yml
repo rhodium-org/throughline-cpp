@@ -1,0 +1,11 @@
+uid: SR-0059
+type: system_requirement
+status: approved
+title: Indent with two spaces and never tabs
+text: >-
+  Indent with two spaces per level using spaces only, never a tab character.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Formatting — Spaces versus Tabs"

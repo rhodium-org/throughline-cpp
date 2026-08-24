@@ -1,0 +1,12 @@
+uid: SR-0067
+type: system_requirement
+status: approved
+title: Separate logical sections with single blank lines
+text: >-
+  Use a single blank line to separate logical sections of code and avoid multiple
+  consecutive blank lines.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Formatting — Vertical Whitespace"

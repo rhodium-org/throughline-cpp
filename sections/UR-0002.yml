@@ -1,0 +1,12 @@
+uid: UR-0002
+type: user_requirement
+status: approved
+title: Scoping
+text: >-
+  Rules governing namespaces, internal linkage, nonmember functions, local variables and
+  static, global and thread-local storage.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google C++ Style Guide: Scoping"

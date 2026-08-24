@@ -1,0 +1,13 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: Place code in a uniquely named namespace
+text: >-
+  Place code in a namespace whose name is unique and based on the project name and path;
+  never use a using-directive, never use inline namespaces, and close a multi-line
+  namespace with a comment.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Scoping — Namespaces"

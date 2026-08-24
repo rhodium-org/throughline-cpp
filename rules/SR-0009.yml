@@ -1,0 +1,12 @@
+uid: SR-0009
+type: system_requirement
+status: approved
+title: Prefer nonmember functions in a namespace to static members
+text: >-
+  Prefer placing a nonmember function in a namespace over a static member, and do not
+  create a class merely to group static members.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Scoping — Nonmember and Static Member Functions"

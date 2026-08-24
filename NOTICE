@@ -1,0 +1,17 @@
+throughline-cpp
+Copyright 2026 Henry J Grech-Cini
+
+This product includes work developed by Dr Henry J Grech-Cini.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for the
+full terms.
+
+This repository is a throughline *source*: a requirements graph, not a program. It
+re-expresses the Google C++ Style Guide as a grounded IDD graph so consuming
+projects can compose it with throughline-compose.
+
+The Google C++ Style Guide is published by Google under the Creative Commons
+Attribution 3.0 License. The rule text re-expressed here in items' `text`/`attrs.source_ref`
+is derived from that guide and remains the work of Google and its contributors; this
+repository claims no ownership over that content and reproduces it for interoperability.
+See https://google.github.io/styleguide/cppguide.html for the authoritative source.

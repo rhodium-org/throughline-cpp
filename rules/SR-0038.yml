@@ -1,0 +1,13 @@
+uid: SR-0038
+type: system_requirement
+status: approved
+title: Use sized integer types from <cstdint>
+text: >-
+  Use int for ordinary needs and a precisely sized type such as int64_t from <cstdint>
+  when a specific width is required; avoid unsigned types except for bitfields and modular
+  arithmetic.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Other C++ Features — Integer Types"

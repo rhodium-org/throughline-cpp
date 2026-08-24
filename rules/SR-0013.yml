@@ -1,0 +1,13 @@
+uid: SR-0013
+type: system_requirement
+status: approved
+title: Do minimal, error-free work in constructors
+text: >-
+  Avoid doing work in a constructor that can fail or that cannot signal an error, and
+  never call a virtual function from a constructor; use a factory function or Init()
+  method for complex initialisation.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Classes — Doing Work in Constructors"

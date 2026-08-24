@@ -1,0 +1,12 @@
+uid: SR-0034
+type: system_requirement
+status: approved
+title: Use C++-style casts, never C-style casts
+text: >-
+  Use named C++ casts such as static_cast and reinterpret_cast rather than a C-style cast,
+  and use brace initialisation or a function-style cast for explicit type conversions.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Other C++ Features — Casting"

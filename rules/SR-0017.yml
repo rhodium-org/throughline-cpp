@@ -1,0 +1,12 @@
+uid: SR-0017
+type: system_requirement
+status: approved
+title: Prefer a named struct to a pair or tuple
+text: >-
+  Prefer a struct with named fields to a pair or tuple whenever the elements have
+  meaningful names, reserving pairs and tuples for generic code.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Classes — Structs versus Pairs and Tuples"

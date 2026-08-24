@@ -1,0 +1,13 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: Overload operators only with obvious meaning
+text: >-
+  Define an operator overload only where its meaning is obvious and matches the built-in
+  operator, define it near its operand types, prefer nonmember binary operators, and do
+  not define user-defined literals.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Classes — Operator Overloading"

@@ -1,0 +1,12 @@
+uid: SR-0040
+type: system_requirement
+status: approved
+title: Use nullptr for pointers and '\0' for characters
+text: >-
+  Use nullptr for a null pointer and the literal '\0' for a null character, rather than
+  NULL or 0.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Other C++ Features — nullptr and NULL"

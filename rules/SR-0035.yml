@@ -1,0 +1,12 @@
+uid: SR-0035
+type: system_requirement
+status: approved
+title: Use streams only for local human-readable output
+text: >-
+  Use streams only where they are the best tool for ad-hoc, local, human-readable output;
+  avoid them for external or untrusted I/O and for stream state mutations such as imbue().
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google C++ Style Guide: Other C++ Features — Streams"
