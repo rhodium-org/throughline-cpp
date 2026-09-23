@@ -8,7 +8,7 @@ full terms.
 
 This repository is a throughline *source*: a requirements graph, not a program. It
 re-expresses the Google C++ Style Guide as a grounded IDD graph so consuming
-projects can compose it with throughline-compose.
+projects can compose it with throughline.
 
 The Google C++ Style Guide is published by Google under the Creative Commons
 Attribution 3.0 License. The rule text re-expressed here in items' `text`/`attrs.source_ref`
