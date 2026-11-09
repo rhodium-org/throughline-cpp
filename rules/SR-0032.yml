@@ -1,12 +1,12 @@
 uid: SR-0032
 type: system_requirement
-status: approved
+status: proposed
 title: Specify noexcept only when it is accurate and useful
-text: >-
-  Specify noexcept only where it accurately reflects the function's semantics and gives a
-  real benefit, such as on a move constructor.
+text: Specify noexcept only where it accurately reflects the function's semantics
+  and gives a real benefit, such as on a move constructor.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google C++ Style Guide: Other C++ Features — noexcept"
+  source_ref: 'Google C++ Style Guide: Other C++ Features — noexcept'

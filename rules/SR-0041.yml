@@ -1,12 +1,13 @@
 uid: SR-0041
 type: system_requirement
-status: approved
+status: proposed
 title: Use auto only where it aids readability
-text: >-
-  Use type deduction such as auto only where it makes code clearer to a reader or is
-  required, not merely to save typing, and never where it hides a type the reader needs.
+text: Use type deduction such as auto only where it makes code clearer to a reader
+  or is required, not merely to save typing, and never where it hides a type the
+  reader needs.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google C++ Style Guide: Other C++ Features — Type Deduction"
+  source_ref: 'Google C++ Style Guide: Other C++ Features — Type Deduction'

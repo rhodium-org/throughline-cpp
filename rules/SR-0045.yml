@@ -1,12 +1,12 @@
 uid: SR-0045
 type: system_requirement
-status: approved
+status: proposed
 title: Name types in UpperCamelCase
-text: >-
-  Name every type, including classes, structs, type aliases and enums, in UpperCamelCase
+text: Name every type, including classes, structs, type aliases and enums, in UpperCamelCase
   with no underscores.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "Google C++ Style Guide: Naming — Type Names"
+  source_ref: 'Google C++ Style Guide: Naming — Type Names'

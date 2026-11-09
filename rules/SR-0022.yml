@@ -1,13 +1,13 @@
 uid: SR-0022
 type: system_requirement
-status: approved
+status: proposed
 title: Prefer return values to output parameters
-text: >-
-  Prefer returning a value to using an output parameter; pass an input by value or const
-  reference, use a reference for a required output and a pointer for an optional one, and
-  order all inputs before the outputs.
+text: Prefer returning a value to using an output parameter; pass an input by value
+  or const reference, use a reference for a required output and a pointer for an
+  optional one, and order all inputs before the outputs.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Google C++ Style Guide: Functions — Inputs and Outputs"
+  source_ref: 'Google C++ Style Guide: Functions — Inputs and Outputs'

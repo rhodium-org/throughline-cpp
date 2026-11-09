@@ -1,12 +1,12 @@
 uid: SR-0051
 type: system_requirement
-status: approved
+status: proposed
 title: Use // comments, and /* */ only for blocks
-text: >-
-  Use // for ordinary comments and reserve /* */ for the rare multi-line block, keeping
-  comments clear and concise.
+text: Use // for ordinary comments and reserve /* */ for the rare multi-line block,
+  keeping comments clear and concise.
+normative: true
 links:
 - target: UR-0008
   type: implements
 attrs:
-  source_ref: "Google C++ Style Guide: Comments — Comment Style"
+  source_ref: 'Google C++ Style Guide: Comments — Comment Style'

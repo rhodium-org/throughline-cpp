@@ -1,12 +1,12 @@
 uid: SR-0014
 type: system_requirement
-status: approved
+status: proposed
 title: Mark single-argument constructors and conversion operators explicit
-text: >-
-  Mark a single-argument constructor and any conversion operator explicit, except copy and
-  move constructors and a constructor taking std::initializer_list.
+text: Mark a single-argument constructor and any conversion operator explicit, except
+  copy and move constructors and a constructor taking std::initializer_list.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "Google C++ Style Guide: Classes — Implicit Conversions"
+  source_ref: 'Google C++ Style Guide: Classes — Implicit Conversions'

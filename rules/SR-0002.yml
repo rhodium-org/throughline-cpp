@@ -1,12 +1,12 @@
 uid: SR-0002
 type: system_requirement
-status: approved
+status: proposed
 title: Guard every header against multiple inclusion
-text: >-
-  Give every header an #define include guard whose symbol is derived from the full path in
-  the project source tree, so it is unique and prevents multiple inclusion.
+text: 'Give every header an #define include guard whose symbol is derived from the
+  full path in the project source tree, so it is unique and prevents multiple inclusion.'
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "Google C++ Style Guide: Header Files — The #define Guard"
+  source_ref: 'Google C++ Style Guide: Header Files — The #define Guard'

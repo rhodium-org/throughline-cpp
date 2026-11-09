@@ -1,12 +1,12 @@
 uid: SR-0044
 type: system_requirement
-status: approved
+status: proposed
 title: Name files in lowercase with underscores
-text: >-
-  Name files in all lowercase with underscores between words, using the .h extension for
-  headers and .cc for implementation files.
+text: Name files in all lowercase with underscores between words, using the .h extension
+  for headers and .cc for implementation files.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "Google C++ Style Guide: Naming — File Names"
+  source_ref: 'Google C++ Style Guide: Naming — File Names'

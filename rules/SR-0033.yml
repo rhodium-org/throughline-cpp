@@ -1,12 +1,12 @@
 uid: SR-0033
 type: system_requirement
-status: approved
+status: proposed
 title: Avoid RTTI in production code
-text: >-
-  Avoid RTTI such as typeid and dynamic_cast in production code, preferring virtual
+text: Avoid RTTI such as typeid and dynamic_cast in production code, preferring virtual
   methods or the visitor pattern; RTTI is permitted freely in tests.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google C++ Style Guide: Other C++ Features — Run-Time Type Information"
+  source_ref: 'Google C++ Style Guide: Other C++ Features — Run-Time Type Information'

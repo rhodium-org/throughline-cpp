@@ -1,12 +1,12 @@
 uid: SR-0048
 type: system_requirement
-status: approved
+status: proposed
 title: Name functions in UpperCamelCase
-text: >-
-  Name a regular function or method in UpperCamelCase; simple accessors and mutators may
-  follow the naming of the variable they expose.
+text: Name a regular function or method in UpperCamelCase; simple accessors and mutators
+  may follow the naming of the variable they expose.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "Google C++ Style Guide: Naming — Function Names"
+  source_ref: 'Google C++ Style Guide: Naming — Function Names'

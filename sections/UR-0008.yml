@@ -1,12 +1,12 @@
 uid: UR-0008
 type: user_requirement
-status: approved
+status: proposed
 title: Comments
-text: >-
-  Rules governing comment style, file, class, function and variable comments,
+text: Rules governing comment style, file, class, function and variable comments,
   implementation comments and TODOs.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Google C++ Style Guide: Comments"
+  source_ref: 'Google C++ Style Guide: Comments'

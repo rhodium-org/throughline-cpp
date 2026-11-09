@@ -1,12 +1,12 @@
 uid: SR-0036
 type: system_requirement
-status: approved
+status: proposed
 title: Use const wherever it is meaningful
-text: >-
-  Use const wherever it applies, including on member functions that do not mutate state
-  and on parameters passed by reference, and place const consistently.
+text: Use const wherever it applies, including on member functions that do not mutate
+  state and on parameters passed by reference, and place const consistently.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google C++ Style Guide: Other C++ Features — Use of const"
+  source_ref: 'Google C++ Style Guide: Other C++ Features — Use of const'
